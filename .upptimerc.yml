@@ -1,7 +1,5 @@
-# Change these first
-owner: rda-run # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
-
+owner: rda-run
+repo: upptime
 sites:
   - name: Vault
     url: https://vault.rda.run/v1/sys/health
@@ -25,21 +23,13 @@ sites:
     url: https://docs.rda.run
   - name: Home
     url: https://rda.run
-  # - name: IPv6 test
-  #   url: forwardemail.net
-  #   port: 80
-  #   check: "tcp-ping"
-  #   ipv6: true
-
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.rda.run
-  # baseUrl: /your-repo-name
   logoUrl: https://rda.run/icon/bimi.svg
   name: rda.run
   introTitle: "**rda.run** services"
-  # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  favicon: https://rda.run/icon/favicon.ico
+  faviconSvg: https://rda.run/icon/bimi.svg
   navbar:
     - title: Status
       href: /
@@ -47,6 +37,5 @@ status-website:
       href: https://rda.run
     - title: Knowledge Base
       href: https://docs.rda.run
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - rdeavila
