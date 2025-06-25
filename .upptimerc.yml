@@ -13,6 +13,8 @@ sites:
     url: https://clear-address.rda.run/v1/rdeavila@gmail.com
   - name: Mirrors
     url: https://mirrors.rda.run/almalinux/timestamp.txt
+  - name: Mirror Report Service
+    url: https://mirrors-report.rda.run
   - name: RPM
     url: https://rpm.rda.run
   - name: Link Shortener
