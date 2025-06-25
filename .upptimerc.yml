@@ -1,30 +1,42 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: rda-run # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Vault
+    url: https://vault.rda.run/v1/sys/health
+  - name: Passwords
+    url: https://passwords.rda.run/alive
+  - name: Links
+    url: https://link.rda.run
+  - name: Clear Address
+    url: https://clear-address.rda.run/v1/rdeavila@gmail.com
+  - name: Mirrors
+    url: https://mirrors.rda.run/almalinux/timestamp.txt
+  - name: RPM
+    url: https://rpm.rda.run
+  - name: Link Shortener
+    url: https://l.rda.run
+  - name: CSPRNG Service
+    url: https://csprng.rda.run/v1/api
+  - name: Knowledge base
+    url: https://docs.rda.run
+  - name: Home
+    url: https://rda.run
+  # - name: IPv6 test
+  #   url: forwardemail.net
+  #   port: 80
+  #   check: "tcp-ping"
+  #   ipv6: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.rda.run
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  name: rda.run
+  introTitle: "**rda.run** services"
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
