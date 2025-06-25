@@ -1,7 +1,7 @@
 url: https://mirrors.rda.run/almalinux/timestamp.txt
-status: down
-code: 404
-responseTime: 352
-lastUpdated: 2025-06-25T18:48:27.918Z
+status: up
+code: 200
+responseTime: 926
+lastUpdated: 2025-06-25T19:12:41.809Z
 startTime: 2025-06-25T17:29:16.400Z
 generator: Upptime <https://github.com/upptime/upptime>
