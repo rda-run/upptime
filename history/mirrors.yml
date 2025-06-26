@@ -1,7 +1,7 @@
 url: https://mirrors.rda.run/almalinux
-status: down
-code: 521
-responseTime: 126
-lastUpdated: 2025-06-26T17:50:50.306Z
+status: up
+code: 200
+responseTime: 844
+lastUpdated: 2025-06-26T17:56:00.204Z
 startTime: 2025-06-25T17:29:16.400Z
 generator: Upptime <https://github.com/upptime/upptime>
