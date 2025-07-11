@@ -1,7 +1,7 @@
 url: https://vault.rda.run/v1/sys/health
 status: down
-code: 530
-responseTime: 358
-lastUpdated: 2025-07-11T08:58:29.966Z
+code: 503
+responseTime: 820
+lastUpdated: 2025-07-11T23:19:07.102Z
 startTime: 2025-06-25T17:29:08.261Z
 generator: Upptime <https://github.com/upptime/upptime>
