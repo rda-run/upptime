@@ -1,7 +1,7 @@
 url: https://vault.rda.run/v1/sys/health
 status: down
 code: 503
-responseTime: 820
-lastUpdated: 2025-07-11T23:19:07.102Z
+responseTime: 610
+lastUpdated: 2025-07-12T23:20:11.697Z
 startTime: 2025-06-25T17:29:08.261Z
 generator: Upptime <https://github.com/upptime/upptime>
